@@ -53,6 +53,9 @@
     @media screen and (min-width: $lg-break) {
         flex-direction: row;
     }
+    @media screen and (min-width: $md-break) {
+        height: 100vh;
+    }
 
     &-container {
         justify-content: center;
@@ -206,7 +209,7 @@
     }
 
     @media screen and (min-width: $lg-break) {
-        min-width: calc(4 / 12 * 100% - 3rem);
+        min-width: calc(4 / 12 * 100% - 1rem);
     }
 
     &-slider {
@@ -249,12 +252,12 @@
 
                 @media screen and (min-width: $md-break) {
                     margin-left: -0.5rem;
-                    width: 200vw;
+                    width: 175vw;
                 }
 
                 @media screen and (min-width: $lg-break) {
                     margin-left: -2rem;
-                    width: 115%;
+                    width: 125%;
                 }
             }
         }

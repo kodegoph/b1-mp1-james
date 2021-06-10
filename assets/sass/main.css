@@ -960,6 +960,12 @@ footer li:not(:last-of-type) {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .card-adventure {
+    height: 100vh;
+  }
+}
+
 .card-adventure-container {
   justify-content: center;
 }
@@ -1135,7 +1141,7 @@ footer li:not(:last-of-type) {
 
 @media screen and (min-width: 992px) {
   .card-route {
-    min-width: calc(4 / 12 * 100% - 3rem);
+    min-width: calc(4 / 12 * 100% - 1rem);
   }
 }
 
@@ -1194,14 +1200,14 @@ footer li:not(:last-of-type) {
 @media screen and (min-width: 768px) {
   .card-route-slider-bg-container {
     margin-left: -0.5rem;
-    width: 200vw;
+    width: 175vw;
   }
 }
 
 @media screen and (min-width: 992px) {
   .card-route-slider-bg-container {
     margin-left: -2rem;
-    width: 115%;
+    width: 125%;
   }
 }
 
