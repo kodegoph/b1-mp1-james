@@ -56,6 +56,9 @@
     @media screen and (min-width: $md-break) {
         height: 100vh;
     }
+    @media screen and (max-width: $sm-break) {
+        height: 100vh;
+    }
 
     &-container {
         justify-content: center;
